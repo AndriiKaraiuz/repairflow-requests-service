@@ -1,0 +1,26 @@
+# Python и временные файлы
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+*.tmp
+*.swp
+*~
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Локальные настройки окружения
+.env
+.env.*
+!.env.example
+
+# Настройки редакторов и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
